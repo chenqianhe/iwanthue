@@ -56,9 +56,6 @@ phpFiles.forEach(file => {
 
   code = solveIncludes(code, phpFiles);
 
-  if (BUILD_FOR_JEKYLL)
-    code = `---\nredirect_from: /${file}.html\n---\n` + code;
-
   if (file.endsWith('index.php')) {
     fs.writeFileSync(path.join('./build', 'index.html'), code, 'utf-8');
   }

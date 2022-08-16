@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/medialab/iwanthue/issues"
   },
-  "homepage": "https://github.com/medialab/iwanthue#readme",
+  "homepage": "https://iwanthue.vercel.app",
   "dependencies": {
     "escape-string-regexp": "^2.0.0",
     "fs-extra": "^8.1.0",
